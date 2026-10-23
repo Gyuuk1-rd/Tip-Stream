@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TipStream — Tips in XLM, split for good</title>
+  <link rel="stylesheet" href="style.css?v=12">
+</head>
+<body>
+
+  <!-- ======================= NAV ======================= -->
+  <header class="nav">
+    <a class="brand" href="#top">
+      <span class="brand-mark">◆</span> Tip<span class="brand-accent">Stream</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#tips">Tip</a>
+      <a href="#impact">Goals</a>
+      <a href="#activity">Live feed</a>
+      <a href="#supporters">Supporters</a>
+    </nav>
+    <span class="badge testnet-badge">TESTNET</span>
+  </header>
+
+  <!-- ======================= CREATOR CHANNEL BANNER ======================= -->
+  <section class="hero" id="top">
+    <div class="hero-banner">
+      <span class="float-coin coin-1"></span>
+      <span class="float-coin coin-2"></span>
+      <span class="float-coin coin-3"></span>
+      <span class="float-coin coin-4"></span>
+      <span class="float-coin coin-5"></span>
+
+      <svg class="ts-heart ts-heart-1" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#ec4899"/>
+      </svg>
+      <svg class="ts-heart ts-heart-2" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#22d3ee"/>
+      </svg>
+      <svg class="ts-heart ts-heart-3" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#f9a8d4"/>
+      </svg>
+      <svg class="ts-heart ts-heart-4" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#a5f3fc"/>
+      </svg>
+
+      <div class="ts-stream-window">
+        <div class="ts-stream-topbar">
+          <span class="live-pill"><span class="live-dot"></span>LIVE</span>
+          <span class="ts-viewers">👀 1,234 watching</span>
+          <span class="ts-rec">● REC</span>
+        </div>
+        <div class="ts-stream-body">
+
+      <div class="hero-id">
+        <div class="hero-avatar" aria-hidden="true">C</div>
+        <div class="hero-id-text">
+          <span class="hero-handle">@creator
+            <svg class="verified" viewBox="0 0 24 24" width="18" height="18" aria-label="verified">
+              <circle cx="12" cy="12" r="11" fill="#22d3ee"/>
+              <path d="M7 12.5l3.2 3.2L17 9" stroke="#0d0b1e" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="hero-live-row">
+            <span class="live-pill"><span class="live-dot"></span>LIVE</span>
+            <span class="hero-live-sub">streaming now · <span class="viewers">👀 1,234 watching</span></span>
+            <span class="demo-tag">demo</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="hero-title-block">
+        <p class="eyebrow">POWERED BY PAIFLOW · RECEIVE → SPLIT</p>
+        <h1>Tip in XLM.<br><span class="hero-accent">90% creator. 10% charity.</span></h1>
+        <p class="hero-sub">
+          Fans tip the creator in testnet XLM through a deployed smart-contract flow.
+          Every tip splits itself — no trust, no manual math, proof on-chain.
+        </p>
+      </div>
+
+      <div class="hero-jar" aria-hidden="true">
+        <svg viewBox="0 0 120 150" width="110" height="138">
+          <defs>
+            <linearGradient id="jarGlass" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="rgba(34,211,238,.28)"/>
+              <stop offset="1" stop-color="rgba(236,72,153,.22)"/>
+            </linearGradient>
+            <linearGradient id="coinGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f9a8d4"/>
+              <stop offset="1" stop-color="#ec4899"/>
+            </linearGradient>
+          </defs>
+          <!-- lid -->
+          <rect x="34" y="8" width="52" height="12" rx="6" fill="#17142e" stroke="#22d3ee" stroke-width="1.5" opacity=".9"/>
+          <!-- jar body -->
+          <path d="M30 30 q0 -6 8 -6 h44 q8 0 8 6 v82 q0 16 -16 16 h-28 q-16 0 -16 -16 z" fill="url(#jarGlass)" stroke="rgba(34,211,238,.65)" stroke-width="2"/>
+          <!-- slot -->
+          <rect x="48" y="26" width="24" height="5" rx="2.5" fill="#0d0b1e" stroke="rgba(236,72,153,.7)" stroke-width="1"/>
+          <!-- coins inside -->
+          <circle cx="48" cy="96" r="9" fill="url(#coinGrad)" opacity=".95"/>
+          <circle cx="68" cy="102" r="9" fill="url(#coinGrad)" opacity=".8"/>
+          <circle cx="58" cy="84" r="8" fill="url(#coinGrad)" opacity=".9"/>
+          <!-- coin dropping -->
+          <circle cx="60" cy="52" r="7" fill="url(#coinGrad)"/>
+          <text x="60" y="55.5" text-anchor="middle" font-size="8" font-weight="800" fill="#0d0b1e">X</text>
+          <!-- sparkles -->
+          <path d="M22 44 l2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 6 -2.5 z" fill="#22d3ee" opacity=".85"/>
+          <path d="M98 70 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 z" fill="#ec4899" opacity=".85"/>
+          <!-- glow base -->
+          <ellipse cx="60" cy="140" rx="40" ry="6" fill="rgba(236,72,153,.28)"/>
+        </svg>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-card">
+        <span class="stat-label">Tips received (paid)</span>
+        <span class="stat-value" id="stat-earned">—</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Pending</span>
+        <span class="stat-value" id="stat-pending">—</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">This week</span>
+        <span class="stat-value" id="stat-week">—</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= SPLIT DIAGRAM ======================= -->
+  <section class="section flow-section">
+    <h2 class="section-title">One tip <em>·</em> two outcomes</h2>
+    <div class="flow-diagram">
+      <div class="flow-node">
+        <span class="flow-node-title">Fan tips</span>
+        <span class="flow-node-sub">Freighter signs the exact prepared XDR</span>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-node flow-node-contract">
+        <span class="flow-node-title">Paiflow contract</span>
+        <span class="flow-node-sub">Receives XLM · verifies original hash</span>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-splits">
+        <div class="flow-split freelancer">
+          <span class="flow-pct">90%</span>
+          <span class="flow-who">Creator</span>
+        </div>
+        <div class="flow-split community">
+          <span class="flow-pct">10%</span>
+          <span class="flow-who">Charity</span>
+        </div>
+      </div>
+    </div>
+    <p class="section-note">A tip is only marked <b>received</b> after both payouts are verified on-chain.</p>
+  </section>
+
+  <!-- ======================= WORKSPACE ======================= -->
+  <main class="workspace">
+
+    <!-- Tip panel + leaderboard + tips -->
+    <section class="section" id="tips">
+      <h2 class="section-title">Send a tip</h2>
+
+      <div class="panel-grid">
+        <form id="tip-form" class="card form-card tip-panel">
+          <h3 class="card-title">Tip jar
+            <svg class="coin-ico" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true">
+              <circle cx="10" cy="10" r="9" fill="url(#coinGrad)"/>
+              <text x="10" y="13.5" text-anchor="middle" font-size="9" font-weight="800" fill="#0d0b1e">X</text>
+            </svg>
+          </h3>
+          <label>Supporter
+            <select id="tip-supporter" required></select>
+          </label>
+          <div class="chip-row" id="amount-chips">
+            <button type="button" class="chip" data-amount="5">5</button>
+            <button type="button" class="chip" data-amount="10">10</button>
+            <button type="button" class="chip" data-amount="20">20</button>
+            <button type="button" class="chip" data-amount="50">50</button>
+          </div>
+          <label>Custom amount (XLM)
+            <input type="number" id="tip-amount" placeholder="e.g. 20" min="0" step="0.01" required>
+          </label>
+          <label>Message
+            <input type="text" id="tip-message" placeholder="e.g. love the stream!" maxlength="120">
+            <span class="char-hint" id="msg-hint">0 / 120</span>
+          </label>
+          <button type="submit" class="btn-primary btn-send">Send Tip ⚡</button>
+        </form>
+
+        <div class="right-col">
+          <div class="card leaderboard-card">
+            <h3 class="card-title">🏆 Top supporters</h3>
+            <div id="leaderboard"></div>
+          </div>
+
+          <div class="card table-card">
+            <table id="tips-table">
+              <thead>
+                <tr><th>Tip</th><th>Supporter</th><th>Amount</th><th>Status</th><th>Actions</th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Goals / Impact -->
+    <section class="section" id="impact">
+      <div class="ts-impact-head">
+        <h2 class="section-title">Creator goals</h2>
+        <div class="ts-milestone" aria-hidden="true">
+          <svg viewBox="0 0 150 92" width="132" height="80">
+            <defs>
+              <linearGradient id="tsMilestoneFill" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#f472b6"/>
+                <stop offset="1" stop-color="#ec4899"/>
+              </linearGradient>
+            </defs>
+            <rect x="18" y="4" width="78" height="8" rx="4" fill="#17142e" stroke="rgba(34,211,238,.65)" stroke-width="1.5"/>
+            <rect x="18" y="8" width="78" height="64" rx="14" fill="rgba(34,211,238,.10)" stroke="rgba(34,211,238,.55)" stroke-width="2"/>
+            <rect x="24" y="34" width="66" height="32" rx="10" fill="url(#tsMilestoneFill)" opacity=".9"/>
+            <circle cx="40" cy="28" r="6" fill="#f9a8d4"/>
+            <circle cx="58" cy="24" r="5" fill="#67e8f9"/>
+            <circle cx="74" cy="29" r="5.5" fill="#f472b6"/>
+            <rect x="18" y="80" width="112" height="7" rx="3.5" fill="#221d42"/>
+            <rect x="18" y="80" width="76" height="7" rx="3.5" fill="url(#tsMilestoneFill)"/>
+            <g stroke="rgba(125,120,163,.8)" stroke-width="1.5">
+              <line x1="46" y1="76" x2="46" y2="91"/>
+              <line x1="74" y1="76" x2="74" y2="91"/>
+              <line x1="130" y1="76" x2="130" y2="91"/>
+            </g>
+            <g fill="#7d78a3" font-size="8" font-family="monospace" text-anchor="middle">
+              <text x="46" y="70">25</text>
+              <text x="74" y="70">50</text>
+              <text x="124" y="70">100</text>
+            </g>
+          </svg>
+          <span>Milestone jar · 68 / 100 XLM</span>
+        </div>
+      </div>
+      <p class="section-note">Cumulative payouts received on testnet · updates every 10s · <span id="impact-updated"></span></p>
+
+      <div class="impact-grid">
+        <div class="card impact-card">
+          <div class="impact-head">
+            <span class="impact-who">Creator <span class="impact-share">90%</span></span>
+            <span class="impact-addr mono" id="impact-freelancer-addr"></span>
+          </div>
+          <div class="impact-total"><span id="impact-freelancer-total">—</span><span class="impact-cur">XLM</span></div>
+          <div class="progress"><div class="progress-fill freelancer" id="impact-freelancer-bar"></div></div>
+          <div class="impact-milestone" id="impact-freelancer-milestone"></div>
+        </div>
+
+        <div class="card impact-card">
+          <div class="impact-head">
+            <span class="impact-who">Charity <span class="impact-share">10%</span></span>
+            <span class="impact-addr mono" id="impact-community-addr"></span>
+          </div>
+          <div class="impact-total"><span id="impact-community-total">—</span><span class="impact-cur">XLM</span></div>
+          <div class="progress"><div class="progress-fill community" id="impact-community-bar"></div></div>
+          <div class="impact-milestone" id="impact-community-milestone"></div>
+        </div>
+      </div>
+
+      <div class="card combined-card">
+        <span class="combined-label">Total flowing through the split</span>
+        <span class="combined-value"><span id="impact-combined">—</span> XLM</span>
+      </div>
+    </section>
+
+    <!-- Live tip feed -->
+    <section class="section" id="activity">
+      <h2 class="section-title">Live tip feed</h2>
+      <p class="section-note">Tips recorded by this app · payment and payout activity can take a moment to appear · updates every 10s</p>
+      <div class="card feed-card">
+        <div id="activity-feed"><div class="skeleton-row"></div><div class="skeleton-row"></div><div class="skeleton-row"></div></div>
+      </div>
+    </section>
+
+    <!-- Supporters -->
+    <section class="section" id="supporters">
+      <h2 class="section-title">Supporters</h2>
+      <div class="panel-grid panel-grid-reverse">
+        <div class="card table-card">
+          <table id="supporters-table">
+            <thead>
+              <tr><th>Name</th><th>Note</th><th></th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <form id="supporter-form" class="card form-card">
+          <h3 class="card-title">New supporter</h3>
+          <label>Name
+            <input type="text" id="supporter-name" placeholder="e.g. Ana" required>
+          </label>
+          <label>Note (optional)
+            <input type="text" id="supporter-note" placeholder="e.g. day-one fan">
+          </label>
+          <button type="submit" class="btn-primary">Add supporter</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>TipStream — Paiflow Receive → Split demo. Testnet XLM has no real value.</p>
+    <p class="mono">Never paste secret keys into apps, repos or prompts.</p>
+  </footer>
+
+  <!-- ======================= PAYMENT MODAL ======================= -->
+  <div id="pay-modal" class="modal" hidden>
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Tip with XLM <span class="badge testnet-badge">TESTNET</span></h3>
+        <button type="button" id="pay-modal-close" class="btn-close">✕</button>
+      </div>
+      <div id="pay-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ======================= TIP DETAIL MODAL ======================= -->
+  <div id="view-modal" class="modal" hidden>
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="view-modal-title">Tip</h3>
+        <button type="button" id="view-modal-close" class="btn-close">✕</button>
+      </div>
+      <div id="view-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Snapshot any extension-injected (legacy) Freighter API before the vendored SDK overwrites window.freighterApi -->
+  <script>window.__nativeFreighter = window.freighterApi || null;</script>
+  <!-- Freighter wallet bridge (vendored from @stellar/freighter-api) -->
+  <script src="vendor/freighter-api.min.js"></script>
+  <!-- Resilient connector: normalizes v5/v6/legacy bridge responses -->
+  <script src="freighter-connector.js"></script>
+  <script src="app.js?v=12"></script>
+</body>
+</html>
